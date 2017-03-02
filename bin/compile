@@ -62,6 +62,6 @@ if [[ "z${SOURCES}" == "z" ]]; then
     SOURCES="*.pl"
 fi
 
-/app/.local/bin/swipl -q -o ${build}/swipl-heroku -g heroku -t prolog --stand_alone=true -c ${SOURCES}
+#/app/.local/bin/swipl -q -o ${build}/swipl-heroku -g heroku -t prolog --stand_alone=true -c ${SOURCES}
 echo "-----> Build succeeded"
 
